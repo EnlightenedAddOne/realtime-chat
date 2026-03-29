@@ -1,0 +1,244 @@
+:root {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+}
+
+/* Theme Color Variables - Default (Pink-Blue) */
+:root {
+  --app-color-primary: #fbc2eb;
+  --app-color-secondary: #a6c1ee;
+  
+  /* Light Mode - Chat Specific Colors */
+  --app-bg-primary: #ffffff;
+  --app-bg-secondary: #f7f9fc;
+  --app-bg-tertiary: #f9fafb;
+  --app-bg-hover: rgba(0, 0, 0, 0.03);
+  --app-bg-active: rgba(166, 193, 238, 0.15);
+  
+  --app-text-primary: #374151;
+  --app-text-secondary: #6b7280;
+  --app-text-muted: #9ca3af;
+  
+  --app-border-color: rgba(0, 0, 0, 0.05);
+  --app-border-light: #e5e7eb;
+  
+  --app-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --app-shadow-md: 0 2px 8px rgba(0, 0, 0, 0.1);
+  --app-shadow-lg: 0 8px 24px rgba(166, 193, 238, 0.3);
+  
+  /* Icon colors */
+  --app-icon-color: #6b7280;
+  --app-icon-hover: #374151;
+  
+  /* Gradient */
+  --app-gradient: linear-gradient(180deg, var(--app-color-secondary) 0%, var(--app-color-primary) 100%);
+  --app-gradient-hover: linear-gradient(180deg, var(--app-color-secondary) 0%, var(--app-color-primary) 100%);
+  
+  /* Message bubble */
+  --app-bubble-bg: #ffffff;
+  --app-bubble-text: #374151;
+}
+
+/* Dark Mode */
+html.dark {
+  --app-color-primary: #944b7d;
+  --app-color-secondary: #4b6a94;
+  
+  /* Dark Mode - Chat Specific Colors */
+  --app-bg-primary: #1a1a2e;
+  --app-bg-secondary: #16213e;
+  --app-bg-tertiary: #1f2937;
+  --app-bg-hover: rgba(255, 255, 255, 0.05);
+  --app-bg-active: rgba(75, 106, 148, 0.3);
+  
+  --app-text-primary: #f3f4f6;
+  --app-text-secondary: #9ca3af;
+  --app-text-muted: #6b7280;
+  
+  --app-border-color: rgba(255, 255, 255, 0.08);
+  --app-border-light: #374151;
+  
+  --app-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --app-shadow-md: 0 2px 8px rgba(0, 0, 0, 0.4);
+  --app-shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.5);
+  
+  /* Icon colors */
+  --app-icon-color: #9ca3af;
+  --app-icon-hover: #f3f4f6;
+  
+  /* Gradient */
+  --app-gradient: linear-gradient(180deg, #1f3a5f 0%, #2d1b3d 100%);
+  --app-gradient-hover: linear-gradient(180deg, #2a4a70 0%, #3d2550 100%);
+  
+  /* Message bubble */
+  --app-bubble-bg: #1f2937;
+  --app-bubble-text: #f3f4f6;
+}
+
+/* Theme Color Options */
+:root {
+  /* Default (Pink-Blue) */
+  --app-color-primary: #fbc2eb;
+  --app-color-secondary: #a6c1ee;
+}
+
+:root[data-theme-color="default"] {
+  --app-color-primary: #fbc2eb;
+  --app-color-secondary: #a6c1ee;
+}
+
+:root[data-theme-color="green"] {
+  --app-color-primary: #a8e063;
+  --app-color-secondary: #56ab2f;
+  /* Green theme backgrounds */
+  --app-bg-primary: #f0fdf4;
+  --app-bg-secondary: #dcfce7;
+  --app-bg-tertiary: #e5e7eb;
+  --app-text-primary: #166534;
+  --app-text-secondary: #15803d;
+  --app-text-muted: #86efac;
+  --app-border-color: rgba(34, 197, 94, 0.1);
+  --app-border-light: #bbf7d0;
+  /* Message bubble */
+  --app-bubble-bg: #ffffff;
+  --app-bubble-text: #166534;
+}
+
+:root[data-theme-color="purple"] {
+  --app-color-primary: #9d50bb;
+  --app-color-secondary: #6e48aa;
+  /* Purple theme backgrounds */
+  --app-bg-primary: #faf5ff;
+  --app-bg-secondary: #f3e8ff;
+  --app-bg-tertiary: #e5e7eb;
+  --app-text-primary: #6b21a8;
+  --app-text-secondary: #7e22ce;
+  --app-text-muted: #d8b4fe;
+  --app-border-color: rgba(147, 51, 234, 0.1);
+  --app-border-light: #ede9fe;
+  /* Message bubble */
+  --app-bubble-bg: #ffffff;
+  --app-bubble-text: #6b21a8;
+}
+
+/* Dark mode with theme colors */
+html.dark[data-theme-color="green"] {
+  --app-color-primary: #56ab2f;
+  --app-color-secondary: #a8e063;
+  --app-bg-primary: #0f1f17;
+  --app-bg-secondary: #12261c;
+  --app-bg-tertiary: #173227;
+  --app-bg-hover: rgba(168, 224, 99, 0.08);
+  --app-bg-active: rgba(168, 224, 99, 0.18);
+  --app-text-primary: #e8fbe9;
+  --app-text-secondary: #b8d8bd;
+  --app-text-muted: #7fa08a;
+  --app-border-color: rgba(168, 224, 99, 0.14);
+  --app-border-light: #2a4a3a;
+  --app-bubble-bg: #163327;
+  --app-bubble-text: #e8fbe9;
+}
+
+html.dark[data-theme-color="purple"] {
+  --app-color-primary: #9d50bb;
+  --app-color-secondary: #6e48aa;
+  --app-bg-primary: #171222;
+  --app-bg-secondary: #1c1630;
+  --app-bg-tertiary: #241d3d;
+  --app-bg-hover: rgba(157, 80, 187, 0.1);
+  --app-bg-active: rgba(157, 80, 187, 0.2);
+  --app-text-primary: #f3ebff;
+  --app-text-secondary: #cfb8ef;
+  --app-text-muted: #9d88bb;
+  --app-border-color: rgba(157, 80, 187, 0.16);
+  --app-border-light: #3b2f58;
+  --app-bubble-bg: #2a2340;
+  --app-bubble-text: #f3ebff;
+}
+
+/* Icon colors - Dark mode adaptation */
+html.dark .el-icon {
+  color: var(--app-icon-color);
+}
+
+html.dark .el-icon svg {
+  fill: var(--app-icon-color);
+}
+
+html.dark .el-input__inner,
+html.dark .el-textarea__inner {
+  color: var(--app-text-primary);
+}
+
+/* Element Plus component dark mode overrides */
+html.dark .el-button {
+  --el-button-bg-color: var(--app-bg-tertiary);
+  --el-button-text-color: var(--app-text-primary);
+  --el-button-border-color: var(--app-border-light);
+  --el-button-hover-bg-color: var(--app-bg-hover);
+  --el-button-hover-text-color: var(--app-text-primary);
+}
+
+html.dark .el-dialog {
+  --el-dialog-bg-color: var(--app-bg-primary);
+}
+
+html.dark .el-drawer {
+  --el-drawer-bg-color: var(--app-bg-primary);
+}
+
+html.dark .el-form-item__label {
+  color: var(--app-text-primary);
+}
+
+html.dark .el-radio-button__inner {
+  background-color: var(--app-bg-primary);
+  color: var(--app-text-primary);
+  border-color: var(--app-border-light);
+}
+
+html.dark .el-radio-button__original-radio:checked + .el-radio-button__inner {
+  background-color: var(--app-color-secondary);
+  color: var(--app-bg-primary);
+  border-color: var(--app-color-secondary);
+}
+
+html.dark .el-input__wrapper {
+  background-color: var(--app-bg-tertiary);
+  box-shadow: 0 0 0 1px var(--app-border-light) inset;
+}
+
+html.dark .el-input__wrapper:hover {
+  box-shadow: 0 0 0 1px var(--app-text-secondary) inset;
+}
+
+html.dark .el-input__wrapper.is-focus {
+  box-shadow: 0 0 0 1px var(--app-color-secondary) inset;
+}
+
+html.dark .el-input__inner {
+  color: var(--app-text-primary);
+}
+
+html.dark .el-input__inner::placeholder {
+  color: var(--app-text-muted);
+}

@@ -1,0 +1,28 @@
+server:
+  port: 8080
+  mode: debug
+
+database:
+  host: 8.130.156.16
+  port: 5432
+  user: postgres
+  password: zjy2109981546
+  dbname: im_chat
+  sslmode: disable
+  timezone: Asia/Shanghai
+
+jwt:
+  secret: your-secret-key-change-in-production
+  expire: 720h
+
+upload:
+  path: ./uploads
+  max_size: 10
+
+email:
+  enable: false
+  host: smtp.qq.com
+  port: 465
+  username: 3366191353@qq.com
+  password: odzgjfpelfeecjej
+  from_name: 实时通讯
