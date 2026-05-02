@@ -96,6 +96,14 @@ realtime-chat/
   - 前端支持下载图片、视频、文件到本地
   - 后端可定时清理云端过期文件
 
+## 界面展示
+<div style="display: flex; overflow-x: auto; gap: 16px; padding: 8px 0;">
+  <img width="800" alt="界面展示 1" src="https://github.com/user-attachments/assets/9f5e5c16-7dfd-4b2f-a83e-87ed4500d270" />
+  <img width="800" alt="界面展示 2" src="https://github.com/user-attachments/assets/4af4b90c-3b55-4d58-bef6-d3c9f91c75b0" />
+</div>
+
+
+
 ## 架构说明
 
 ### 后端架构（分层）
