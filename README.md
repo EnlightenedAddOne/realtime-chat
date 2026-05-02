@@ -96,13 +96,25 @@ realtime-chat/
   - 前端支持下载图片、视频、文件到本地
   - 后端可定时清理云端过期文件
 
+
+
 ## 界面展示
-<div style="display: flex; overflow-x: auto; gap: 16px; padding: 8px 0;">
-  <img width="800" alt="界面展示 1" src="https://github.com/user-attachments/assets/9f5e5c16-7dfd-4b2f-a83e-87ed4500d270" />
-  <img width="800" alt="界面展示 2" src="https://github.com/user-attachments/assets/4af4b90c-3b55-4d58-bef6-d3c9f91c75b0" />
-</div>
 
+| 注册界面 | 登录界面 |
+| :---: | :---: |
+| <img width="100%" alt="注册界面" src="https://github.com/user-attachments/assets/9f5e5c16-7dfd-4b2f-a83e-87ed4500d270" /> | <img width="100%" alt="登录界面" src="https://github.com/user-attachments/assets/4af4b90c-3b55-4d58-bef6-d3c9f91c75b0" /> |
 
+| 亮色主题下的清新绿配色 | 亮色主题下的粉蓝渐变配色 |
+| :---: | :---: |
+| <img width="100%" alt="亮色主题下的清新绿配色" src="https://github.com/user-attachments/assets/2eba9548-eb13-4c0b-a86c-06bc83357b21" /> | <img width="100%" alt="亮色主题下的粉蓝渐变配色" src="https://github.com/user-attachments/assets/11abe9be-ebc2-407e-8403-5888af8e6ff7" /> |
+
+| 暗色主题界面一 | 暗色主题界面二 |
+| :---: | :---: |
+| <img width="100%" alt="暗色主题界面一" src="https://github.com/user-attachments/assets/a04a93b0-0b07-437c-951c-29b7745acccd" /> | <img width="100%" alt="暗色主题界面二" src="https://github.com/user-attachments/assets/6c633446-4121-4aa8-9a66-7ea45cde704c" /> |
+
+| 设置界面 |
+| :---: |
+| <img width="100%" alt="设置界面" src="https://github.com/user-attachments/assets/cf511359-70ee-4125-8ed9-db2e78b7fc63" /> |
 
 ## 架构说明
 
